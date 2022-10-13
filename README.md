@@ -1,18 +1,33 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ejecuta el programa en tu IDE de confianza, de lo contrario, por consola
 
-## Folder Structure
+Llena los campos, primero haz el arreglo de pisos
 
-The workspace contains two folders by default, where:
+Ejmplo: 
+5,29,13,10
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+De esta manera deberás llenar este arreglo.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Luego se te pedirá el piso inicial, ingresa un solo número.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Ejemplo:
+4
 
-## Dependency Management
+Luego el arreglo de los pisos de destino.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ejemplo:
+2,10,1,1
+De esta manera deberás llenar este arreglo.
+
+Por ùltimo tendrás que escoger el sentido en el que va el ascensor:
+
+1) Subiendo
+2) Bajando
+
+Escoge sólo el número
+
+Ejemplo:
+1
+
+Que es equivalente a: Subiendo
