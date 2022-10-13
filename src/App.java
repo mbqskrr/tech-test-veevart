@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-//import java.util.Collection;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -114,7 +114,7 @@ public class App {
         actualFloor += 1;
 
         for (int i = startFloor2; i < FLOORS; i++) {
-            System.out.println("Ascensor en el piso" + actualFloor);
+            System.out.println("Ascensor en el piso " + actualFloor);
             for (int j = 0; j < stopFloors2.size(); j++) {
                 if (stopFloors2.get(j) == actualFloor) {
                     System.out.println("Ascensor se detiene");
